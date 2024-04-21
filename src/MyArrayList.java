@@ -11,7 +11,7 @@ public class MyStack<T extends Comparable<T>> {
     // Pop the top element from the stack
     public T pop() {
         if (isEmpty()) {
-            throw new NoSuchElementException("Stack is empty");
+            throw new NoSuchElementException("Stack is:empty");
         }
         T element = list.getLast();  // Get the last element
         list.removeLast();           // Remove the last element
